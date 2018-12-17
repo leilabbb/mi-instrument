@@ -1,3 +1,16 @@
+# Version 0.7.0
+
+* Issue #13713 - prevent cg_dcl_eng parser from hanging on ingest
+   * Encoding errors will no longer result in parser exiting prematurely (all parsers)
+   * Added range checking option for particle value encoding (all parsers)
+   * Corrected regex resulting in catastrophic backtracking (cg_dcl_eng)
+   * Optimized file parsing logic (cg_dcl_eng)
+
+# Version 0.6.9
+
+* Issue #13722 - Platform node deployment update
+   * Updated serial numbers for platform engineering nodes for most recent deployment
+
 # Version 0.6.8
 
 * Issue #13598 - Hotfix to correct cabled data ingest
